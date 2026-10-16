@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">家常一桌应用图标</title>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="#c8422b"/>
+  <path d="M174 177c-22-24 18-40-2-66M256 177c-22-24 18-40-2-66M338 177c-22-24 18-40-2-66" fill="none" stroke="#fff8ee" stroke-width="26" stroke-linecap="round"/>
+  <rect x="94" y="216" width="324" height="58" rx="29" fill="#fff8ee"/>
+  <path d="M116 254h280c-13 105-57 158-140 158s-127-53-140-158Z" fill="#fff"/>
+  <path d="M177 414h158" fill="none" stroke="#f3b65d" stroke-width="22" stroke-linecap="round"/>
+</svg>

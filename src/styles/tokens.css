@@ -1,0 +1,25 @@
+:root {
+  font-family: "Microsoft YaHei UI", "PingFang SC", system-ui, sans-serif;
+  color: #262421;
+  background: #fcfaf6;
+  font-synthesis: none;
+  --canvas: #fcfaf6;
+  --surface: #ffffff;
+  --surface-warm: #fff7ed;
+  --ink: #262421;
+  --muted: #665f58;
+  --border: #ded6cd;
+  --border-strong: #b9afa5;
+  --primary: #c8422b;
+  --primary-dark: #a93220;
+  --primary-soft: #fff0e8;
+  --green: #3f7d3a;
+  --green-soft: #edf6eb;
+  --apricot: #f7e7d5;
+  --danger: #b62f24;
+  --shadow: 0 8px 24px rgb(76 55 35 / 0.08);
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 22px;
+  --sidebar-width: 224px;
+}

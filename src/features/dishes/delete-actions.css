@@ -1,0 +1,14 @@
+.table-actions,
+.ingredient-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.table-actions .button,
+.ingredient-actions .button {
+  min-height: 44px;
+  padding: 8px;
+  font-size: 15px;
+  white-space: nowrap;
+}

@@ -1,0 +1,22 @@
+.preference-member-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.preference-member-grid article {
+  min-height: 154px;
+  display: grid;
+  grid-template-columns: 58px minmax(0, 1fr);
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: white;
+}
+
+.preference-member-grid .large-avatar { width: 52px; height: 52px; font-size: 22px; }
+.preference-member-grid h2 { font-size: 22px; }
+.preference-member-grid p { color: var(--muted); font-size: 15px; }
+.preference-member-grid .button { grid-column: 1 / -1; width: 100%; display: flex; align-items: center; justify-content: center; gap: 8px; }

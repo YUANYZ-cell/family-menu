@@ -1,0 +1,29 @@
+.preset-editor__actions {
+  display: grid;
+  gap: 8px;
+}
+
+.preset-editor__actions .button {
+  width: 100%;
+}
+
+@media (max-width: 1350px) {
+  .preset-editor {
+    grid-template-columns: minmax(0, 1fr) 220px;
+  }
+
+  .preset-editor .field {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .preset-editor .structure-grid {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .preset-editor__actions {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}
